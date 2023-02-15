@@ -7,10 +7,8 @@ const {
 const list = {};
 async function makeList(dirPath, list) {
     const files = glob.sync(`${dirPath}/**/index.js`)
-    console.log(files)
     files.forEach(item => {
         const component = item.split(/[/.]/)[2]
-        console.log(component)
         list[component] = `./${item}`
     })
 }
@@ -41,7 +39,7 @@ module.exports = {
                     'style-loader',
                     'css-loader'
                 ]
-            }
+            },
         ],
     },
     mode: 'development'

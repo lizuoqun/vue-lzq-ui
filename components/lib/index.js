@@ -1,9 +1,11 @@
 import DemoText from "./demo";
 import SelectPerson from "./select-person";
+import EchartMap from "./echart-map";
 
 const components = {
     DemoText,
-    SelectPerson
+    SelectPerson,
+    EchartMap
 }
 
 const install = function (Vue) {

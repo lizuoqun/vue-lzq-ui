@@ -9,6 +9,8 @@ npm install -D webpack-cli
 npm i gulp gulp-sass gulp-minify-css -D
 
 npm install sass
+
+npm install echarts --save
 ```
 ## 设置镜像
 ```

@@ -1,4 +1,7 @@
 module.exports = {
+    title:'Lzq-UI',
+    // base:'./vue-lzq-ui/',
+    base:'./',
     head: [
         ['link', {
             rel: 'icon',
@@ -13,8 +16,8 @@ module.exports = {
         ],
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'Guide', link: '/guide/' },
-            { text: 'External', link: 'https://www.baidu.com' },
+            { text: 'GitHub', link: 'https://github.com/lizuoqun/vue-lzq-ui/tree/master' },
+            { text: 'Npm', link: 'https://www.npmjs.com/package/vue-lzq-ui' },
           ]
     }
 }
